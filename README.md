@@ -118,5 +118,19 @@ function canPawnAttack(pawn, pieceRow, pieceCol, kingRow, kingCol) {
 ```
 But when we call
 ```bash
+console.log("Pawn Attack Test:", canPawnAttack('p', 4, 3, 5, 4)); // Expected output: true
 ```
 This returns true
+
+This is console.log of the calling of canPawnAttack
+```bash
+chessTest1.html:1310 p 4 3
+
+chessTest1.html:1311 Testing piece: p at {row: 4, col: 3}
+ against king at {row: 5, col: 4}
+chessTest1.html:1313 false
+chessTest1.html:1318 96
+chessTest1.html:1333 Valid king move: 
+{row: 6, col: 3}
+chessTest1.html:1339 Possible Moves []
+```
